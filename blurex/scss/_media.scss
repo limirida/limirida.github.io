@@ -1,0 +1,106 @@
+@media screen and (max-width:991px) {
+
+    section,
+    footer {
+        padding: 50px 0;
+    }
+
+    .copyright {
+        padding: 25px 0;
+    }
+
+    .main-header .navbar-nav {
+        position: relative;
+        z-index: 1;
+        padding: 0 15px;
+        background: linear-gradient(45deg, #ed1b33 0%, #442e82 100%);
+    }
+
+    .section-reviews h3,
+    .section-reviews h4 {
+        font-size: 25px;
+    }
+
+    .section-reviews .blockquote {
+        font-size: 17px;
+        padding-left: 20px;
+        margin-top: 40px;
+
+        &::before {
+            font-size: 100px;
+            top: -40px;
+        }
+    }
+}
+
+@media screen and (max-width:769px) {
+    .main-header-text {
+        left: 0;
+        margin: 0 20px;
+        max-width: 100%;
+    }
+
+    h3,
+    h4 {
+        font-size: 30px;
+    }
+
+    .section-progress .progress-item {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .section-reviews .carousel-caption {
+        position: static;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .section-reviews .carousel-caption {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main-header-text {
+        top: 90px;
+    }
+
+    .main-header-buttons .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .btn-shadow {
+        box-shadow: 0px 5px 0 0 #ff5990;
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .section-tabs .nav-pills .nav-link {
+        padding: 8px 16px;
+    }
+
+    .section-tabs .nav-pills .nav-item {
+        width: 100%;
+    }
+
+    .thumb {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .navbar-brand img {
+        width: 200px;
+    }
+}
