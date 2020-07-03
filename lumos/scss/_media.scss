@@ -1,0 +1,233 @@
+@media screen and (max-width:1212px) {
+    .header {
+        background-image: url('../img/header-bg-phone.jpg');
+        background-size: cover;
+        min-height: 1021.01px;
+    }
+
+    .question-answers__left::after {
+        top: 34%;
+        right: -10px;
+    }
+}
+
+@media screen and (max-width:1115px) {
+    .header-name {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:995px) {
+    .header-description .form-control {
+        margin-bottom: 20px;
+    }
+
+    .question-answers__right::before {
+        top: 43%;
+    }
+
+    .question-answers__left::after {
+        top: 36%;
+        right: -10px;
+    }
+}
+
+@media screen and (max-width:982px) {
+    .question:first-child {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width:753px) {
+    .footer-support {
+        width: 100%;
+    }
+
+    .support:first-child p {
+        padding-bottom: 20px;
+    }
+
+    .footer-partners h5 {
+        padding-bottom: 10px;
+    }
+
+    .footer-partners {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:769px) {
+    .header-logo {
+        margin: 0 auto;
+    }
+
+    .author-info img {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .author-list {
+        padding-right: 20px;
+    }
+
+    .question-answers__right::before {
+        display: none;
+    }
+
+    .question-answers__left::after {
+        display: none;
+    }
+
+    .header-description h1 {
+        font-size: 40px;
+    }
+
+    .program-main {
+        max-width: 452px;
+    }
+}
+
+@media screen and (max-width:527px) {
+    .causes-info h4 {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .couses-item__small {
+        width: 100%;
+    }
+
+    .reviews {
+        background: #F4E4F9;
+        padding-top: 52px;
+    }
+
+    .reviews h4 {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .reviews-wrap {
+        max-width: 446px;
+    }
+}
+
+@media screen and (max-width:483px) {
+    .author h3 {
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .program-main ul {
+        margin-left: 70px;
+        margin-right: 50px;
+    }
+
+    .question h3 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .header h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .header-description-info p {
+        margin: 0 55px;
+        font-size: 24px;
+        line-height: 29px;
+        padding-bottom: 20px;
+    }
+
+    .header-form p {
+        text-align: left;
+    }
+
+    .header-form {
+        margin: 0 auto;
+    }
+
+    .author-list {
+        max-width: 90%;
+    }
+
+    .reviews h4 {
+        width: 95%;
+    }
+
+    .author-item h3 {
+        width: 95%;
+    }
+
+    .reviews .btn-record {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .reviews-author h5 {
+        font-size: 10px;
+    }
+
+    .header-form p {
+        font-size: 12px;
+        line-height: 14px;
+        color: #EDD9D9;
+    }
+
+    .header-description .form-control {
+        width: 88%;
+        margin: 0 auto 14px;
+    }
+
+    .header-description .btn-red {
+        width: 88%;
+        margin-left: 25px;
+    }
+
+}
+
+@media screen and (max-width:402px) {
+    .btn-record {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .causes-info h4 {
+        width: 95%;
+    }
+
+    .author h3 {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:364px) {
+    .header-description .btn-red {
+        margin-left: 20px;
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .header-description p {
+        font-size: 15px;
+    }
+
+    .info p:first-child {
+        font-size: 15px;
+    }
+
+    .program-main {
+        border: none;
+    }
+
+    .causes {
+        padding-top: 60px;
+    }
+}
