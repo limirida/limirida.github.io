@@ -36,6 +36,9 @@
     .question:first-child {
         padding-bottom: 60px;
     }
+    .carousel-item {
+        height: 1620px;
+    }
 }
 
 @media screen and (max-width:753px) {
@@ -54,6 +57,12 @@
     .footer-partners {
         width: 100%;
         margin: 0 auto;
+    }
+    .carousel-item {
+        height: 2082px;
+    }
+    .carousel-inner {
+        padding-bottom: 140px;
     }
 
 }
@@ -88,6 +97,9 @@
     .program-main {
         max-width: 452px;
     }
+    .carousel-item {
+        height: 2456px;
+    }
 }
 
 @media screen and (max-width:527px) {
@@ -116,6 +128,12 @@
 }
 
 @media screen and (max-width:483px) {
+    .carousel-item {
+        height: 2777px;
+    }
+    .carousel-inner {
+        padding-bottom: 0;
+    }
     .author h3 {
         font-weight: bold;
         font-size: 20px;
@@ -229,5 +247,11 @@
 
     .causes {
         padding-top: 60px;
+    }
+    .carousel-item {
+        height: 3534px;
+    }
+    .carousel-inner{
+        padding-bottom: 160px;
     }
 }

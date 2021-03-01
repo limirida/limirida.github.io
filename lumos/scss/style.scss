@@ -597,7 +597,15 @@ h4 {
 .info-heading {
     display: none;
 }
-
+.carousel-inner {
+    padding-bottom: 120px;    
+}
+.carousel-item {
+    height: 1268px;
+}
+// .carousel {
+//     padding-bottom: 120px;
+// }
 
 
 @import "media";
